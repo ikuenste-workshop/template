@@ -1,0 +1,45 @@
+body {
+    font-family: 'Comic Neue', cursive;
+}
+/* Abschnitte */
+section {
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+#home {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+#about {
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+}
+#contact {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.btn-custom {
+    font-size: 1.5rem;
+    padding: 0.8rem 2rem;
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+/* Navbar bunt */
+.navbar {
+    background-color: #ffeb3b !important;
+}
+.navbar-brand, .nav-link {
+    font-weight: bold;
+    color: #ff4081 !important;
+}
+.nav-link:hover {
+    color: #3f51b5 !important;
+}
+/* Sticky Navbar */
+body {
+    padding-top: 70px; /* Platz für fixed navbar */
+}
+
+
